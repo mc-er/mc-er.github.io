@@ -1,0 +1,21 @@
+---
+layout: default
+permalink: /content-sites/talks/
+---
+
+<div class="content">
+    <header>
+      <p><img src="/assets/images/headers/talks.jpg" alt="" width="100%" height="100%"></p>
+    </header>
+
+    <div style="margin-left:30px;">
+      {% for nav in site.data.site-info %}
+        {% if nav.title == "Talks" %}
+          {% for sub in nav.talk-list %}
+            <p>{{ sub.date }}, {{ sub.name }}, {{ sub.location }}<br><strong>{{ sub.type }} title</strong> {{ sub.talk-title }} </p>
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+  </div>
+  <br>
+</div>

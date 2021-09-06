@@ -1,0 +1,40 @@
+<div class="header">
+  <div class="container">
+  <!-- Nav -->
+  <nav id="navbar">
+    <ul>
+      {% for nav in site.data.site-info %}
+        {% if nav.sublinks != null %}
+          {% if page.url contains nav.url %}
+            <li class="current">
+              <a href="{{ site.url }}{{ nav.url }}">{{ nav.title }}</a>
+              <ul>
+                {% for sublink in nav.sublinks %}
+                  <li><a href="{{ site.url }}{{ sublink.sub-url }}">{{ sublink.sub-title }}</a></li>
+                {% endfor %}
+              </ul>
+            </li>
+          {% else %}
+            <li>
+              <a href="{{ site.url }}{{ nav.url }}">{{ nav.title }}</a>
+              <ul>
+                {% for sublink in nav.sublinks %}
+                  <li><a href="{{ site.url }}{{ sublink.sub-url }}">{{ sublink.sub-title }}</a></li>
+                {% endfor %}
+              </ul>
+            </li>
+          {% endif %}
+        {% elsif nav.url == page.url %}
+          <li class="current">
+            <a href="{{ site.url }}{{ nav.url }}">{{ nav.title }}</a>
+          </li>
+        {% else %}
+          <li>
+            <a href="{{ site.url }}{{ nav.url }}">{{ nav.title }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </nav>
+</div>
+</div>

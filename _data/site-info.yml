@@ -4,9 +4,9 @@
 - title: Research
   url: /content-sites/research/
 
-- title: Projects
-  url: /content-sites/projects/
-  sublinks:
+# - title: Projects
+#   url: /content-sites/projects/
+#   sublinks:
     # - sub-title: Project-1
     #   sub-url: /content-sites/projects/
     #   description: some text describing the project and adding a link to page.

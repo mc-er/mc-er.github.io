@@ -185,7 +185,7 @@ article:last-child
     vertical-align: middle;
     text-align: center;
     text-transform: uppercase;
-		font-family: 'Palatino', serif;
+	font-family: 'Palatino', serif;
     font-weight: 200;
     font-size: 1em;
     outline: 0;
@@ -285,7 +285,7 @@ ul a:hover {
 	width: 800px;
 	height: 300px;
 	margin-left: auto;
-  margin-right: auto;
+  	margin-right: auto;
 }
 
 .containerProj .box
@@ -294,7 +294,7 @@ ul a:hover {
 	border: 5px solid #0290a6 ;
 	border-radius: 10px;
 	width: 250px;
-  height: 250px;
+  	height: 250px;
 	margin: 5px;
 	float: left;
 	box-sizing: border-box;
@@ -305,10 +305,10 @@ ul a:hover {
 {
 	position: relative;
 	width: 200px;
-  height: 150px;
+  	height: 150px;
 	display: block;
-  margin-left: auto;
-  margin-right: auto;
+ 	 margin-left: auto;
+  	margin-right: auto;
 }
 /*********************************************************************************/
 /* Footer                                                                        */

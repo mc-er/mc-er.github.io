@@ -4,6 +4,34 @@
 - title: Research
   url: /content-sites/research/
 
+- title: Publications
+  url: /content-sites/publications/
+  pub-list:
+    - pub-title: "Repeat dynamics across timescales: a perspective from sibling allotetraploid marsh orchids (<em>Dactylorhiza majalis</em> s.l.)"
+      year: 2022
+      journal: Molecular Biology and Evolution
+      pages: 
+      volume: msac167
+      issue: 
+      authors: <strong>Eriksson MC</strong>, Mandáková T, McCann J, Temsch TM, Chase MW, Hedrén M, Weiss-Schneeweiss H, Paun O
+      doi: https://doi.org/10.1093/molbev/msac167
+    - pub-title: "Current research frontiers in plant epigenetics: an introduction to a Virtual Issue"
+      year: 2020
+      journal: New Phytologist
+      pages: :285–288
+      volume: 226
+      issue: (2)
+      authors: <strong>Eriksson MC</strong>, Szukala A, Tian B, Paun O
+      doi: https://doi.org/10.1111/nph.16493
+    - pub-title: "Parental legacy, demography, and admixture influenced the evolution of the two subgenomes of the tetraploid <em>Capsella bursa-pastoris</em> (Brassicaceae)"
+      year: 2019
+      journal: PLoS Genetics
+      pages: :1–34
+      volume: 15
+      issue: (2)
+      authors: Kryvokhyzha D, Salcedo A, <strong>Eriksson MC</strong>, Duan T, Tawari N, Chen J, Guerrina M, Kreiner JM, Kent TV, Lagercrantz U ,Stinchcombe JR, Glémin S, Wright SI, Lascoux M
+      doi: https://doi.org/10.1371/journal.pgen.1007949
+
 # - title: Projects
 #   url: /content-sites/projects/
 #   sublinks:
@@ -23,26 +51,6 @@
     #   sub-url: /content-sites/projects/
     #   description: some text describing the project and adding a link to page.
 
-- title: Publications
-  url: /content-sites/publications/
-  pub-list:
-    - pub-title: "Current research frontiers in plant epigenetics: an introduction to a Virtual Issue"
-      year: 2020
-      journal: New Phytologist
-      pages: 285–288
-      volume: 226
-      issue: 2
-      authors: <strong>Eriksson MC</strong>, Szukala A, Tian B, Paun O
-      doi: https://doi.org/10.1111/nph.16493
-    - pub-title: "Parental legacy, demography, and admixture influenced the evolution of the two subgenomes of the tetraploid <em>Capsella bursa-pastoris</em> (Brassicaceae)"
-      year: 2019
-      journal: PLoS Genetics
-      pages: 1–34
-      volume: 15
-      issue: 2
-      authors: Kryvokhyzha D, Salcedo A, <strong>Eriksson MC</strong>, et al
-      doi: https://doi.org/10.1371/journal.pgen.1007949
-
 - title: Work and education
   url: /content-sites/w-and-e/
 
@@ -50,37 +58,44 @@
   url: /content-sites/talks/
   talk-list:
     - talk-title: TE dynamics and smRNA control after allopolyploidization in sibling marsh orchids.
+      authors: <strong>Eriksson MC</strong>
       date: 2021.08.03
       name: EvolVienna
       location: Online
-      type: Talk
+      type: Oral presentation
     - talk-title: Repetitive elements and early stages of polyploid evolution. A perspective from sibling allopolyploid marsh orchids (<em>Dactylorhiza</em>).
+      authors: <strong>Eriksson MC</strong>, et al
       date: 2020.09.30-10.02
       name: 4th Uppsala Transposon Symposium
       location: Online
-      type: Talk
+      type: Oral presentation
     - talk-title: Repetitive elements and early stages of polyploid evolution. A perspective from sibling allopolyploid marsh orchids (<em>Dactylorhiza</em>).
+      authors: <strong>Eriksson MC</strong>, Temsch E, McCann J, Paun O
       date: 2020.07.27-31
-      name: Botany 2020
+      name: Botany
       location: Online
-      type: Talk
+      type: Oral presentation
     - talk-title: Genome dynamics and evolution after recurrent allopolyploidization in <em>Dactylorhiza</em> (Orchidaceae).
+      authors: <strong>Eriksson MC</strong>, et al
       date: 2019.06.21-25
-      name: Evolution 2019
+      name: Evolution
       location: Providence, Rhode Island, USA
-      type: Talk
+      type: Oral presentation
     - talk-title: Repeated allopolyploidization in <em>Dactylorhiza</em>.
+      authors: <strong>Eriksson MC</strong>
       date: 2019.06.17-19
       name: SMBE satellite meeting
       location: Tjärnö, Sweden
       type: Flash talk
     - talk-title: Transposable elements and early stages of polyploid evolution. A perspective from sibling allopolyploid marsh orchids (<em>Dactylorhiza</em>).
+      authors: <strong>Eriksson MC</strong>, et al.
       date: 2019.06.11-14
       name: International Conference on Polyploidy
       location: Ghent, Belgium
-      type: Talk
+      type: Oral presentation
     - talk-title: Genome dynamics after recurrent allopolyploidization in <em>Dactylorhiza</em> (Orchidaceae).
+      authors: <strong>Eriksson MC</strong>, Brandrud MK, Wolfe TM, Paun O
       date: 2019.01.03-06
       name: PopGroup52
       location: Oxford, United Kingdom
-      type: Talk
+      type: Oral presentation

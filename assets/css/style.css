@@ -88,7 +88,7 @@ article:last-child
 .main
 {
 	background: rgb(255, 255, 255);
-    height: 600px;
+    height: 700px;
 }
 
 
@@ -97,9 +97,9 @@ article:last-child
 /************************/  
 .content
 {
-	background: rgb(255, 255, 255);
+	background: rgb(204, 23, 23);
 	float: left;
-	height: 600px;
+	height: 700px;
 	padding-right: 20px;
 }
 .content-text {

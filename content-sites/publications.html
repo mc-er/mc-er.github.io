@@ -3,19 +3,18 @@ layout: default
 permalink: /content-sites/publications/
 ---
 
-<div class="content">
+<div class="overflow-scroll content">
     <header>
-      <p><img src="/assets/images/headers/publications.jpg" alt="" width="100%" height="100%"></p>
+        <p><img class="content-header-image float-start" alt="" src="/assets/images/headers/publications.jpg"></p>
     </header>
 
-    <div style="margin-left:30px;">
-      {% for nav in site.data.site-info %}
-        {% if nav.title == "Publications" %}
-          {% for pub in nav.pub-list %}
-            <p>{{ pub.authors }}. ({{ pub.year }}). {{ pub.pub-title }}. <em>{{ pub.journal }}</em>. {{ pub.volume }}({{ pub.issue }}):{{ pub.pages }}. <a href="{{ pub.doi}}" target="_blank">Read it here!</a></p>
-          {% endfor %}
-        {% endif %}
-      {% endfor %}
-    </div>
-  <br>
+    <div class="content-text">
+        {% for nav in site.data.site-info %}
+          {% if nav.title == "Publications" %}
+            {% for pub in nav.pub-list %}
+              <p>{{ pub.authors }}. ({{ pub.year }}). {{ pub.pub-title }}. <em>{{ pub.journal }}</em>. {{ pub.volume }}{{ pub.issue }}{{ pub.pages }}. <a href="{{ pub.doi}}" target="_blank">Read it here!</a></p>
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
+      </div>
 </div>

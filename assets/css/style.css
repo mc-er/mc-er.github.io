@@ -367,7 +367,28 @@ sidebar-hr {
 /*  Modifications based on screen size  */
 /****************************************/
 
-@media (min-width: 400px) {
+/* @media (min-width: 400px) {
+	.sidebar-title {
+	  font-size: 12px; 
+	}
+	.sidebar-text {
+		font-size: 9px;
+	}
+	.sidebar-icons {
+		width: 25%;
+		height: 25%;
+	}
+	.content-text {
+		font-size: 9px;
+	}
+	#navbarframe > div > ul a {
+		font-size: 10px;
+	}
+	.copyright {
+		font-size: 10px;
+	}
+} */
+@media (max-width: 543px) {
 	.sidebar-title {
 	  font-size: 12px; 
 	}

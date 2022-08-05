@@ -51,7 +51,6 @@ a:hover
 {
 	color: #015956;
 	text-decoration: none;
-	text-align: center;
 }
 
 
@@ -101,6 +100,7 @@ article:last-child
 	background: rgb(255, 255, 255);
 	float: left;
 	height: 600px;
+	padding-right: 20px;
 }
 .content-text {
 	font-size: 14px;
@@ -196,17 +196,16 @@ article:last-child
 	list-style-type: none;
 	background: #191919;
 	border-radius: 40px;
-	padding: 0px 25px;
-	margin: 50px auto 0px auto;
-	display: table;
+	padding: 0px 40px;
+	margin: 10px auto 0px auto;
 }
 #navbarframe > div > ul > li {
-	list-style-type: none;
 	padding-right: 1px;
 	position: relative;
+	list-style-type: none;
+	/* vertical-align: middle; */
 	display: table-cell;
-    vertical-align: middle;
-}
+} 
 #navbarframe > div > ul > li:last-child {
     padding-right: 0;
 }
@@ -227,9 +226,7 @@ ul a:hover {
 ul > li:hover > ul a:hover {
     background: #494949;
 }
-#navbarframe > div > ul > li > a:hover {
-    color: #FFF;
-}
+
 #navbarframe > div > ul > li > ul > li a:hover {
 	color: #FFF;
 }
@@ -237,6 +234,8 @@ ul > li:hover > ul a:hover {
     display: block;
 }
 #navbarframe > div > ul a {
+	float: left;
+	display: block;
     text-align: center;
 	text-transform: uppercase;
 	font-family: 'Palatino', serif;
@@ -245,7 +244,7 @@ ul > li:hover > ul a:hover {
     text-decoration: none;
 	outline: 0;
 	font-weight: 200;
-    font-size: 1em;
+    font-size: 16px;
 }
 #navbarframe > div > ul > li.current a {
     color: #ffffff;
@@ -382,6 +381,12 @@ sidebar-hr {
 	.content-text {
 		font-size: 9px;
 	}
+	#navbarframe > div > ul a {
+		font-size: 10px;
+	}
+	.copyright {
+		font-size: 10px;
+	}
 }
 @media (min-width: 544px) {
 	.sidebar-title {
@@ -395,6 +400,12 @@ sidebar-hr {
 		height: 25%;
 	}
 	.content-text {
+		font-size: 10px;
+	}
+	#navbarframe > div > ul a {
+		font-size: 10px;
+	}
+	.copyright {
 		font-size: 10px;
 	}
 }
@@ -412,6 +423,12 @@ sidebar-hr {
 	.content-text {
 		font-size: 11px;
 	}
+	#navbarframe > div > ul a {
+		font-size: 12px;
+	}
+	.copyright {
+		font-size: 12px;
+	}
 }
 @media (min-width: 992px) {
 	.sidebar-title {
@@ -426,6 +443,12 @@ sidebar-hr {
 	}
 	.content-text {
 		font-size: 12px;
+	}
+	#navbarframe > div > ul a {
+		font-size: 13px;
+	}
+	.copyright {
+		font-size: 13px;
 	}
 }
 @media (min-width: 1200px) {
@@ -442,6 +465,12 @@ sidebar-hr {
 	.content-text {
 		font-size: 13px;
 	}
+	#navbarframe > div > ul a {
+		font-size: 14px;
+	}
+	.copyright {
+		font-size: 14px;
+	}
 }
 @media (min-width: 1400px) {
 	.sidebar-title {
@@ -456,5 +485,11 @@ sidebar-hr {
 	}
 	.content-text {
 		font-size: 14px;
+	}
+	#navbarframe > div > ul a {
+		font-size: 15px;
+	}
+	.copyright {
+		font-size: 15px;
 	}
 }

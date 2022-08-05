@@ -35,21 +35,21 @@
 # - title: Projects
 #   url: /content-sites/projects/
 #   sublinks:
-    # - sub-title: Project-1
-    #   sub-url: /content-sites/projects/
-    #   description: some text describing the project and adding a link to page.
-    # - sub-title: GIS
-    #   sub-url: /content-sites/projects/GIS/
-    #   description: Individual project during GIS course 2014. My idea was to plan a hiking route and provide useful information and well as potential suitable spots to set up a tent.
-    # - sub-title: Project-2
-    #   sub-url: /content-sites/projects/
-    #   description: some text describing the project and adding a link to page.
-    # - sub-title: Project-3
-    #   sub-url: /content-sites/projects/
-    #   description: some text describing the project and adding a link to page.
-    # - sub-title: Project-4
-    #   sub-url: /content-sites/projects/
-    #   description: some text describing the project and adding a link to page.
+#     - sub-title: Project-1
+#       sub-url: /content-sites/projects/
+#       description: some text describing the project and adding a link to page.
+#     - sub-title: GIS
+#       sub-url: /content-sites/projects/GIS/
+#       description: Individual project during GIS course 2014. My idea was to plan a hiking route and provide useful information and well as potential suitable spots to set up a tent.
+#     - sub-title: Project-2
+#       sub-url: /content-sites/projects/
+#       description: some text describing the project and adding a link to page.
+#     - sub-title: Project-3
+#       sub-url: /content-sites/projects/
+#       description: some text describing the project and adding a link to page.
+#     - sub-title: Project-4
+#       sub-url: /content-sites/projects/
+#       description: some text describing the project and adding a link to page.
 
 - title: Work and education
   url: /content-sites/w-and-e/

@@ -156,22 +156,12 @@ article:last-child
 /************************/
 .sidebar
 {
-	background: #fff;
+	background: rgb(255, 255, 255);
 	position: fixed;
+	margin-left: 7%;
 	float: right;
-	margin: 0px;
 	width: 15%;
-	height: 600px;
-}
-.sidebar-title {
-	font-size: 24px;
-}
-.sidebar-text {
-	font-size: 20px;
-}
-.sidebar-icons {
-	width: 17%;
-	height: auto;
+	height: 700px;
 }
 
 

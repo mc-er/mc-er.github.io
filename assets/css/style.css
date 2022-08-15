@@ -314,11 +314,9 @@ sidebar-hr {
 	max-height: 200px;
 }
 .content-header-image{
-	height: 100%; 
-	width: 100%;
-	object-fit: contain;
-	float: left;
-	margin-bottom: 3vw;
+	margin-right: 2%;
+	max-height: 700px;
+	/* margin-bottom: 3vw; */
 }
 .image_center{
 	display: block;

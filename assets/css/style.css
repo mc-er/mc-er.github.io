@@ -101,6 +101,12 @@ article:last-child
 	float: right;
 	height: 700px;
 	display: inline;
+	overflow:hidden;
+}
+.content-wrapper {
+	overflow-y:scroll; 
+    position:relative;
+	height: 700px;
 }
 .content-text {
 	font-size: 14px;
